@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Core' Language: 'ko' Physical Memory: 16268 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/AdventureGame/Adventure
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58069
+Successfully changed project path to: D:/unity/AdventureGame/Adventure
+D:/unity/AdventureGame/Adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 112.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/AdventureGame/Adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   24.21.13.9924
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003548 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\AdventureGame\Adventure\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity\AdventureGame\Adventure\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 3719.
+Memory consumption went from 119.9 MB to 118.5 MB.
+Total: 3.980400 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.236300 ms MarkObjects: 2.914800 ms  DeleteObjects: 0.530200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25031.295141 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – Fire Sparks Particle.mat
+  artifactKey: Guid(cb13d7cdb5fad487d94f1f1fcadf9233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – Fire Sparks Particle.mat using Guid(cb13d7cdb5fad487d94f1f1fcadf9233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b75e21076a283d115eb059bcf6a8a8') in 0.216918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Debris Dust.png
+  artifactKey: Guid(8605d03a570f447d5b70ac899d502bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Debris Dust.png using Guid(8605d03a570f447d5b70ac899d502bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f4dcfa47c2e59091c689b3b62c60ae') in 0.164568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – Butterfly Particle.mat
+  artifactKey: Guid(9241d0a8c6df24bfcb098b2341886eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – Butterfly Particle.mat using Guid(9241d0a8c6df24bfcb098b2341886eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e7189d44e603cdd0a57cd8392078b') in 0.055802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Hand Painted/$Common/Meshes/Butterfly.mesh
+  artifactKey: Guid(c1c711065bef84b61bbe0f778f7a5323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Meshes/Butterfly.mesh using Guid(c1c711065bef84b61bbe0f778f7a5323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8faeb2e7d451c3580e77ef42d90ba1f') in 0.232681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Fire Smoke Particles.png
+  artifactKey: Guid(551713794096e4f1697d9da5bbdc885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Fire Smoke Particles.png using Guid(551713794096e4f1697d9da5bbdc885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2155e56481c2f5c85b2fa67816e53eb') in 0.035493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Dust Particle.png
+  artifactKey: Guid(ff7dd6a0de1a44ef78e1ef9a0e47ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Dust Particle.png using Guid(ff7dd6a0de1a44ef78e1ef9a0e47ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95eaa8fa9abbbcf2a85ac9819e5e4ba1') in 0.034493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – Rays Particle.mat
+  artifactKey: Guid(c59deaff87d584d55843d45142033603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – Rays Particle.mat using Guid(c59deaff87d584d55843d45142033603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48b490399f58f911d060fa7ef21b2f6') in 0.032789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – Dust Particle.mat
+  artifactKey: Guid(76c6126eadf594735b7e30360d634404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – Dust Particle.mat using Guid(76c6126eadf594735b7e30360d634404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb4929f03df809ccd53eb706b7aa809') in 0.030830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – Fire Smoke Particle.mat
+  artifactKey: Guid(7aebdb4460bc14eaea8f1e9f07ae4dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – Fire Smoke Particle.mat using Guid(7aebdb4460bc14eaea8f1e9f07ae4dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf039ac805871010017c95a579c66a14') in 0.035810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Glitter Particle.png
+  artifactKey: Guid(670010715ee6c46649ac5b00ae0236bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Glitter Particle.png using Guid(670010715ee6c46649ac5b00ae0236bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d25e92f691af2584b2f48686751c6e') in 0.032292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – Glitter Particle.mat
+  artifactKey: Guid(9daeb7c012336475a899aac4243cf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – Glitter Particle.mat using Guid(9daeb7c012336475a899aac4243cf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3211f59471a5c996edd251970239906d') in 0.034941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/butterflies.png
+  artifactKey: Guid(eed5d93207e654120b3a4956816c9b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/butterflies.png using Guid(eed5d93207e654120b3a4956816c9b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bc4b12529d1353542415930a80f735') in 0.031950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Square.png
+  artifactKey: Guid(592c570c99cb84b2faf16eefbd671e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Square.png using Guid(592c570c99cb84b2faf16eefbd671e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa8cee743cd90025423d6a8e36c5d67') in 0.051652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Fog Particles.png
+  artifactKey: Guid(89c9cb7acca8742f3a4a65c97e1ec508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Fog Particles.png using Guid(89c9cb7acca8742f3a4a65c97e1ec508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6221d5aea53e2788b7604948283a80d') in 0.045078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/rays.png
+  artifactKey: Guid(8533f578f59454f4ab6b216a4e55ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/rays.png using Guid(8533f578f59454f4ab6b216a4e55ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245fa4b0a3eae4e1aba0743029fd728f') in 0.035026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Fire Noise.png
+  artifactKey: Guid(4c5d6718f9f834278be63ecee43fa89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Fire Noise.png using Guid(4c5d6718f9f834278be63ecee43fa89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a2d45b45e1a6fe4611f46a8a2807d2') in 0.043629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Hand Painted/$Common/Materials/Hand Painted – No Fog.mat
+  artifactKey: Guid(8ddf5f755b4854bc7ad93092f8d7f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Materials/Hand Painted – No Fog.mat using Guid(8ddf5f755b4854bc7ad93092f8d7f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3845472abd9adbe7b95d5a0579dba6') in 0.034973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Hand Painted/$Common/Textures/Fire Sparks Particles.png
+  artifactKey: Guid(8d83753afdb9a48f580e08f861e3e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Textures/Fire Sparks Particles.png using Guid(8d83753afdb9a48f580e08f861e3e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6809cea9e581b890fce4e39ae3eed771') in 0.038821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.722163 seconds.
+  path: Assets/2D Hand Painted/2D Hand Painted.asmdef
+  artifactKey: Guid(1a8947e718e8e480c976e689219e8872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/2D Hand Painted.asmdef using Guid(1a8947e718e8e480c976e689219e8872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e7de9a528634d1c243624fc0b9ad96') in 0.022919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2D Hand Painted/TagsLayers.preset
+  artifactKey: Guid(74ba7668d9eb4444b9cdbca9e68627c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/TagsLayers.preset using Guid(74ba7668d9eb4444b9cdbca9e68627c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e663750e7979251c8a1e100eff9e045d') in 0.016924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.511130 seconds.
+  path: Assets/2D Hand Painted/Sample/_PackMeta.asset
+  artifactKey: Guid(14a4dfcb815c84d3da3a1ce48068fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/_PackMeta.asset using Guid(14a4dfcb815c84d3da3a1ce48068fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7fa465e96975332de47691d50b8e4') in 0.020948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.259410 seconds.
+  path: Assets/2D Hand Painted/Sample/Shapes/Bridge.asset
+  artifactKey: Guid(0d6639680e8674ebeac75b33d5198b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Shapes/Bridge.asset using Guid(0d6639680e8674ebeac75b33d5198b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51883bd129214f0683933a68c6a669ca') in 0.012769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Hand Painted/Sample/Shapes/Laundry Rope.asset
+  artifactKey: Guid(c0d94c8a86dd34881aafa30f67a51a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Shapes/Laundry Rope.asset using Guid(c0d94c8a86dd34881aafa30f67a51a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c19aa79e88fdad1bf7ada3c6f52e937') in 0.013089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2D Hand Painted/Sample/Shapes/Grass.asset
+  artifactKey: Guid(13152977368044cbe8bf5cfb7202029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Shapes/Grass.asset using Guid(13152977368044cbe8bf5cfb7202029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7467862cef679dbfffce33a0d20cbb1') in 0.013754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Hand Painted/Sample/Shapes/Water Surface.asset
+  artifactKey: Guid(608f42148b5d74cacae5b224d54437e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Shapes/Water Surface.asset using Guid(608f42148b5d74cacae5b224d54437e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b41e1ffa5be31edab0e1b466463683') in 0.014542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Hand Painted/Sample/Shapes/Water.asset
+  artifactKey: Guid(1370c1a6ea6aa4da082a04ea3c9291e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Shapes/Water.asset using Guid(1370c1a6ea6aa4da082a04ea3c9291e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c64459888c1aae65e7b54b0bc1248f') in 0.012511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Hand Painted/Sample/Shapes/Ground.asset
+  artifactKey: Guid(6c104d388f0e04ec58f1bee2124117c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Shapes/Ground.asset using Guid(6c104d388f0e04ec58f1bee2124117c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18e60e1229c63991894d1b63e780653') in 0.014642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.023480 seconds.
+  path: Assets/2D Hand Painted/Sample/Scenes/Demo.unity
+  artifactKey: Guid(96e861643c9f0484eac94ad1d301be70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Scenes/Demo.unity using Guid(96e861643c9f0484eac94ad1d301be70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cad5af001ecdeea864f341d817fdda') in 0.030218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.239670 seconds.
+  path: Assets/2D Hand Painted/Sample/Materials/Sample – Flame.mat
+  artifactKey: Guid(1325416747794420e996bd240c0f7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Materials/Sample – Flame.mat using Guid(1325416747794420e996bd240c0f7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0017401034f5ffb3686ca64912ea825a') in 0.028714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D Hand Painted/Sample/Materials/Sample – Water (Shape).mat
+  artifactKey: Guid(deeb3de38beb746e0b58ad2d63c7b90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Materials/Sample – Water (Shape).mat using Guid(deeb3de38beb746e0b58ad2d63c7b90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6154a9b352aae2335d6dce8998765c5') in 0.029129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Hand Painted/Sample/Materials/Sample – Wind (Shape).mat
+  artifactKey: Guid(bf2f57a37dcf2439a99a9164ba415d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Materials/Sample – Wind (Shape).mat using Guid(bf2f57a37dcf2439a99a9164ba415d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1c30aa296abc3c7d5f8c006a026a38') in 0.073842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Hand Painted/Sample/Materials/Sample – Wind.mat
+  artifactKey: Guid(20c7b7947333d43ef9ba6d6b75609769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Materials/Sample – Wind.mat using Guid(20c7b7947333d43ef9ba6d6b75609769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542a5f01bb037dbaee645bfa75042ba7') in 0.026101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Hand Painted/Sample/Materials/Sample – Bubble Particle.mat
+  artifactKey: Guid(a25c710f481fd4d86a7162fc14fe64fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Materials/Sample – Bubble Particle.mat using Guid(a25c710f481fd4d86a7162fc14fe64fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc7b3f4addfade928e46e4cb70d1dae') in 0.029639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Hand Painted/Sample/Materials/Sample.mat
+  artifactKey: Guid(9eba74e77f1a3415ea0cd6408a2f8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/Sample/Materials/Sample.mat using Guid(9eba74e77f1a3415ea0cd6408a2f8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c4cb70fca024f162ae73690821d463') in 0.037153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.467767 seconds.
+  path: Assets/2D Hand Painted/$Common/Scripts
+  artifactKey: Guid(4885d24968ee045deb9d3ffeeed11e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Scripts using Guid(4885d24968ee045deb9d3ffeeed11e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b001b50f8f23cb6b600b13c2710d889a') in 0.034925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.731886 seconds.
+  path: Assets/2D Hand Painted/$Common/Scripts/Wind
+  artifactKey: Guid(f542b159f48c4bd7b6f8c30200c2f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted/$Common/Scripts/Wind using Guid(f542b159f48c4bd7b6f8c30200c2f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12aadf8d821be5c525ac8840333f4eb0') in 0.017927 seconds 
