@@ -353,7 +353,11 @@
 "Assets/Assets/Stylized Astronaut/Character/Player.cs"
 "Assets/Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs"
 "Assets/Scripts/CamZone.cs"
+"Assets/Scripts/MonsterController.cs"
+"Assets/Scripts/MonsterStatus.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/PlayerStatus.cs"
+"Assets/Scripts/Status.cs"
 -langversion:9.0
 
 /deterministic
