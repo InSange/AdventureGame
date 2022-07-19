@@ -13,9 +13,21 @@ public class PlayerStatus : Status
     {
         _hp = 100;
         _maxHp = 100;
-        _attack = 10;
-        _defense = 5;
+        _atk = 10;
+        _def = 5;
         _moveSpeed = 5.0f;
         _gold = 0;
+        _atkSpeed = 1.0f;
+        _atkCoolDown = 0f;
+        _atkRange = 3.0f;
+    }
+
+    public void Attack(Status MonsterStatus)
+    {
+        if (_atkCoolDown <= 0)
+        {
+            MonsterStatus.TakeDamage(_atk); // Å¸°Ù¿¡ µ¥¹ÌÁö¸¦ ÀÔÈû!
+            _atkCoolDown = 2.0f / _atkSpeed; // °ø°Ý µô·¹ÀÌ °»½Å
+        }
     }
 }

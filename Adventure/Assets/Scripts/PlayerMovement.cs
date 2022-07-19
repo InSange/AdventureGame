@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed = 5.0f; // 플레이어 이동속도
+
+    private void OnDrawGizmos() // 범위 반경을 보여줄 기즈모
+    {
+        Gizmos.color = Color.blue;   // 기즈모의 색깔은 blue
+        Gizmos.DrawWireSphere(transform.position, playerStatus.AtkRange);   // 오브젝트 공격범위 거리
+    }
+
+
+    //[SerializeField] private float _moveSpeed = 5.0f; // 플레이어 이동속도
     //[SerializeField] private float _jumpSpeed = 8.0f; // 플레이어 점프속도
     [SerializeField] private float Gravity = 20.0f; // 중력
     //[SerializeField] private float rotateSpeed = 3.0f; // 플레이어 회전 속도
@@ -14,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim; //캐릭터 애니메이터
     private CharacterController _characterController; // 캐릭터 컨트롤러
     private Vector3 MoveDir = Vector3.zero; // 캐릭터의 움직이는 방향.
+    private PlayerStatus playerStatus;  // 플레이어 스테이터스
 
     public Quaternion finalRotation; // 최종회전 값
     private Ray ray; // 레이 변수
@@ -22,13 +31,14 @@ public class PlayerMovement : MonoBehaviour
 
     private bool _isfleep = false; // 구르는중인가?
 
-    enum anim_State { Idle, Run, Flip, Float, Jump_end, Jump_start, Walk, Jump_loop }; // 애니메이션 상태들 열거형
+    enum Anim_State { Idle, Run, Flip, Float, Jump_end, Jump_start, Walk, Jump_loop }; // 애니메이션 상태들 열거형
     string currentState; // 플레이어 애니메이션 현재상태를 지정할 변수.
 
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>(); // 캐릭터 컨트롤러 컴포넌트 연결
         anim = gameObject.GetComponent<Animator>(); // 캐릭터 애니메이션 컴포넌트 연결
+        playerStatus = gameObject.GetComponent<PlayerStatus>();
         //cam = GetComponentInChildren<Camera>(); // 자식오브젝트인 카메라 컴포넌트를 가져옴
     }
 
@@ -36,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Move();
         LookMouse();
+        playerStatus.AtkCoolDown -= Time.deltaTime; // 공격 쿨다운 감소
     }
 
     private void Move()
@@ -58,13 +69,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0) // 플레이어가 움직이고 있다면 애니메이션 Walk으로 체인지.
                 {
-                    ChangeAnimationState(anim_State.Walk);
+                    ChangeAnimationState(Anim_State.Walk);
                     // 바라보는 방향으로 속도 적용.
-                    MoveDir *= _moveSpeed;
+                    MoveDir *= playerStatus.MoveSpeed;
                 }
                 else // 안움직이고 있으면 Idle로 체인지.
                 {
-                    ChangeAnimationState(anim_State.Idle);
+                    ChangeAnimationState(Anim_State.Idle);
                 }
 
                 // 캐릭터 점프. -> 구르기로 변경.
@@ -76,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                ChangeAnimationState(anim_State.Flip); // 구르기 애니메이션으로 체인지.
+                ChangeAnimationState(Anim_State.Flip); // 구르기 애니메이션으로 체인지.
                 MoveDir *= _flipSpeed;
                 if(anim.GetCurrentAnimatorStateInfo(0).IsName("Flip") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
                 {
@@ -103,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void ChangeAnimationState(anim_State newStateParameter)
+    void ChangeAnimationState(Anim_State newStateParameter)
     {
         string newState = newStateParameter.ToString();
         // 현재상태와 같으면 바꿀필요 없음.

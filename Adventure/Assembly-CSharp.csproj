@@ -57,14 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\MonsterStatus.cs" />
+    <Compile Include="Assets\Scripts\MonsterController.cs" />
+    <Compile Include="Assets\Scripts\Status.cs" />
+    <Compile Include="Assets\Scripts\PlayerStatus.cs" />
     <Compile Include="Assets\Assets\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
     <Compile Include="Assets\Scripts\CamZone.cs" />
     <Compile Include="Assets\Assets\Stylized Astronaut\Character\Player.cs" />
     <Compile Include="Assets\Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\Scripts\PlayerStatus.cs" />
-    <Compile Include="Assets\Scripts\Status.cs" />
-    <Compile Include="Assets\Scripts\MonsterStatus.cs" />
-    <Compile Include="Assets\Scripts\MonsterController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
